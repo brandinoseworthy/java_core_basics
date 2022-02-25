@@ -137,13 +137,19 @@ public class ArrayExercises {
 
 //    public static void exercise8() {
 //        String[] arr8 = {"Alligator", "Bear", "Caterpillar", "Dolphin", "Eagle"};
-//           // for(int i = 0; i < arr8.length; i++){
-//            System.out.println(Arrays.toString(arr8));
+//            System.out.println("This is the original array: " + Arrays.toString(arr8));
 //
-// need help with reverseArray()
+//            String a8 = arr8[0];
+//            arr8[0] =arr8[(arr8.length -1)/2];
+//            arr8[(arr8.length -1)/2] = a8;
+//
+//        System.out.println("This is the new array with the first and middle element swapped: " + Arrays.toString(arr8));
+//
+        // Result:
+        // This is the original array: [Alligator, Bear, Caterpillar, Dolphin, Eagle]
+        //This is the new array with the first and middle element swapped: [Caterpillar, Bear, Alligator, Dolphin, Eagle]
 
-
- //   } // end exercise8 method
+    // } // end exercise8 method
 
 
     // 9.Write a program to sort the following int array in ascending order: {4, 2, 9, 13, 1, 0}.
@@ -155,7 +161,7 @@ public class ArrayExercises {
 //    public static void exercise9() {
 //        int [] arr9 = {4, 2, 9, 13, 0};
 //
-//        System.out.println("This is original array: " + Arrays.toString(arr9));
+//        System.out.println("This is the original array: " + Arrays.toString(arr9));
 //
 //        Arrays.sort(arr9);
 //
@@ -170,10 +176,18 @@ public class ArrayExercises {
 ////                System.out.println("The smallest number is: " + minValue);}
 
 // Result:
-//  This is original array: [4, 2, 9, 13, 0]
+//  This is the original array: [4, 2, 9, 13, 0]
 //  This is the array sorted in ascending order: [0, 2, 4, 9, 13]
 //  This is the largest value: 13. This is the smallest value: 0            } // end exercise9 method
 
+    // 10. Create an array that includes an integer, 3 strings, and 1 double. Print the array.
 
+//    public static void exercise10() {
+//        // you need to make the array an Object to print out the different datatype present in the array
+//
+//        Object[] arr10 = {12, "snow", "blanket", "cold", 1.46};
+//        System.out.println(Arrays.toString(arr10));
+//Result:
+// [12, snow, blanket, cold, 1.46]          } // end exercise10 method
 
 } // end ArrayExercises Class
