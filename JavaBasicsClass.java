@@ -16,7 +16,7 @@ public class JavaBasicsClass {
        // ArrayExercises.exercise6(); // 2/24 Complete
        // ArrayExercises.exercise7(); // 2/24 Complete
       //  ArrayExercises.exercise8(); // ALMOST NEED HELP WITH reverseArray()
-        ArrayExercises.exercise9();
+        // ArrayExercises.exercise9(); // 2/25 Complete
 
 
         // 1. Write a program that declares 2 integer variables, assigns an integer to each, and adds them together.

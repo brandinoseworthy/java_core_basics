@@ -152,24 +152,27 @@ public class ArrayExercises {
     //The smallest number is 0
     //The biggest number is 13
 
-    public static void exercise9() {
-        int [] arr9 = {4, 2, 9, 13, 0};
-        int maxValue = Integer.MIN_VALUE;
-        int minValue = Integer.MAX_VALUE;
+//    public static void exercise9() {
+//        int [] arr9 = {4, 2, 9, 13, 0};
+//
+//        System.out.println("This is original array: " + Arrays.toString(arr9));
+//
+//        Arrays.sort(arr9);
+//
+//        int maxValue = arr9[(arr9.length-1)];
+//        int minValue = arr9[0];
+//
+//        System.out.println("This is the array sorted in ascending order: " + Arrays.toString(arr9)); //Array in ascending order: 0, 1, 2, 4, 9, 13
+//        System.out.println("This is the largest value: " + maxValue  + ". This is the smallest value: " + minValue);
+////        for(int i = 1; i < arr9.length; i++){
+////            if (arr9[i] < minValue){
+////                minValue = arr9[i];
+////                System.out.println("The smallest number is: " + minValue);}
 
-        Arrays.sort(arr9);
-        System.out.println(Arrays.toString(arr9)); //Array in ascending order: 0, 1, 2, 4, 9, 13
-
-        for(int i = 1; i < arr9.length; i++){
-            if (arr9[i] < minValue){
-                minValue = arr9[i];
-                System.out.println("The smallest number is: " + minValue);}
-
-
-        }
-
-
-    } // end exercise9 method
+// Result:
+//  This is original array: [4, 2, 9, 13, 0]
+//  This is the array sorted in ascending order: [0, 2, 4, 9, 13]
+//  This is the largest value: 13. This is the smallest value: 0            } // end exercise9 method
 
 
 
