@@ -70,39 +70,39 @@ public class ControlFlowConditional {
 //        F: <60
 //        Use the Scanner class to accept a number score from the user to determine the letter grade. Print out “Score out of range.” if the score is less than 0 or greater than 100.
 //
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Enter your score: ");
-//
-//        int score = scanner.nextInt();
-//            if ((score >= 90) && (score <= 100))
-//                System.out.println("You received an A.");
-//            else if ((score >= 80) && (score <= 89))
-//                System.out.println("You received a B.");
-//            else if ((score >= 70) && (score <= 79))
-//                System.out.println("You received a C.");
-//            else if ((score >= 60) && (score <= 69))
-//                System.out.println("You received a D.");
-//            else if ((score < 60) && (score > 0))
-//                System.out.println("You received a F.");
-//            else if ((score <= 0) || (score >= 100))
-//            System.out.println("Out of Range.");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your score: ");
+
+        int score = scanner.nextInt();
+            if (score >= 90 && score <= 100)
+                System.out.println("You received an A.");
+            else if (score >= 80 && score <= 89)
+                System.out.println("You received a B.");
+            else if (score >= 70 && score <= 79)
+                System.out.println("You received a C.");
+            else if (score >= 60 && score <= 69)
+                System.out.println("You received a D.");
+            else if (score < 60 && score > 0)
+                System.out.println("You received a F.");
+            else if (score <= 0 || score >= 100)
+            System.out.println("Out of Range.");
 
 
         //  6. Write a program that accepts an integer between 1 and 7 from the user. Use a switch statement to
         //  print out the corresponding weekday. Print “Out of range” if the number is less than 1 or greater than 7.
         //  Don’t forget to include “break” statements in each of your cases.
 
-        Scanner scanner = new Scanner(System.in);
-
-        int x = 0;
-
-        while(true) {
-            System.out.print("Enter a number: ");
-            x = scanner.nextInt();
-        if (x < 1 &&  x > 7)
-            break;
-            System.out.println("Enter a number between 1 and 7");
-        }
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int x = 0;
+//
+//        while(true) {
+//            System.out.print("Enter a number: ");
+//            x = scanner.nextInt();
+//        if (x < 1 &&  x > 7)
+//            break;
+//            System.out.println("Enter a number between 1 and 7");
+//        }
 
 
     }// end main method
