@@ -69,7 +69,19 @@ public class CoreJavaLoops {
 //            }
 //        }
 
-        // ****NEED TO DO 8.
+        // 8. return the fibonacci series where the value is less than 50.
+//        int count = 0;
+//        int nextNumer = 0;
+//        int previousNumber = 1;
+//        System.out.print("The fibonacci series under the value of 50 is: \n");
+//
+//        for (int i = 1; nextNumer <= 50; ++i)
+//        {
+//            System.out.print(nextNumer+" ");
+//            int sumNumbers = nextNumer + previousNumber;
+//            nextNumer = previousNumber;
+//            previousNumber = sumNumbers;
+//        }
 
         //9. Write a program that nests a for-loop inside another.
         // Print out the inner and outer variable (e.g., i or j) in the inner loop (e.g., System.out.println("Inner loop: i: " + i + ", j: " + j);).
